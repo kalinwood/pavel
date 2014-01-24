@@ -80,6 +80,17 @@ footer {
 	text-decoration: none;
 }
 
+.share {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+	margin: auto;
+	text-align: center;
+	position: absolute;
+	bottom: 5%;
+	left: 0; right: 0;
+}
+
 .tweet {
 	text-align: center;
 	margin: auto;
