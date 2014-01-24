@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	
+	<title>WTF PAVEL!</title>
+
+<script type="text/javascript">
+function changeImg(imgNumber) {
+var myImages = ["bgimages/1.gif", "bgimages/2.gif", "bgimages/3.gif", "bgimages/4.gif", "bgimages/5.gif", "bgimages/6.gif", "bgimages/7.gif", "bgimages/8.gif", "bgimages/9.gif", "bgimages/10.gif", "bgimages/11.gif", "bgimages/12.gif", "bgimages/13.gif", "bgimages/14.gif", "bgimages/15.gif", "bgimages/16.gif", "bgimages/17.gif"];
+var imgShown = document.getElementById("bg").style.backgroundImage;
+var newImgNumber =Math.floor(Math.random()*myImages.length);
+document.getElementById("bg").style.backgroundImage = 'url('+myImages[newImgNumber]+')';
+}
+window.onload=changeImg;
+</script>
+
+</head>
+
+<body>
+	<div id="bg">
+		<a href="javascript:location.reload(true)" class="btn">REFRESH</a>
+	</div>
+
+	<section class="content">
+		<h1>PAVEL DATSYUK IS A MAGICIAN</h1>
+		<a class="tweet" href="http://twitter.com/share" target="_blank"><img src="images/tweet.png"></a>
+	</section>
+
+	<footer>
+		<a class="myself" href="http://kalinwood.com/" target="_blank">Built by the shaky hands of Kalin Wood© in 2014</a>
+	</footer>
+
+</body>
+
+</html>
