@@ -92,6 +92,26 @@ footer {
 	left: 0; right: 0;
 }
 
+a {
+	text-decoration: none;
+}
+
+.ss-icon {
+	color: #ffffff;
+	font-size: 60px;
+	position: relative;
+	top: 10px;
+}
+
+.ss-icon:hover {
+	text-decoration: none;
+	top: 5px;
+	padding-bottom: 5px;
+	-webkit-transition: all 0.4s ease;
+  	-moz-transition: all 0.4s ease;
+  	-o-transition: all 0.4s ease;
+}
+
 .tweet {
 	text-align: center;
 	margin: auto;
